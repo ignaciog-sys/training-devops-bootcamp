@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Herramienta favorita: VS Code
+=======
+Herramienta favorita: Vim
+>>>>>>> conflicto-ejemplo
