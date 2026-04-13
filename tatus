@@ -1,0 +1,72 @@
+[33mcommit dc7ffc3381e8c16cd901e62e861e852a9c7b61f8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: albertomr23 <albertomunuera23@gmail.com>
+Date:   Mon Apr 13 12:23:53 2026 +0200
+
+    mi primer commit
+
+[33mcommit 35db5760711ff0f1c171bf1095d5e34ddfcf6e79[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Carlos Palanca <carlospalanca@gmail.com>
+Date:   Sun Apr 12 22:10:44 2026 +0200
+
+    chore: hide apps for progressive unlock — only myfitness available on Day 1
+
+[33mcommit b4f963252775ca684047e51e9b837bc01130e5bb[m
+Author: Carlos Palanca <carlospalanca@gmail.com>
+Date:   Sun Apr 12 20:55:07 2026 +0200
+
+    feat: frontend uses relative API URLs + nginx proxy to backend
+
+[33mcommit 7e37dcf4719f13b8da6b17ca85ddab7efaccf708[m
+Author: Carlos Palanca <carlospalanca@gmail.com>
+Date:   Sun Apr 12 20:30:15 2026 +0200
+
+    chore: remove Dockerfiles — students will create them in the lab
+
+[33mcommit 4ee70019f9b5f7978b1d9a8b50c2826f161af36b[m
+Author: Carlos Palanca <carlospalanca@gmail.com>
+Date:   Sun Apr 12 19:40:49 2026 +0200
+
+    chore: refresh contributors cache
+
+[33mcommit d28d0600832fa713e3fe8b29a00a7cfd93679837[m
+Author: Carlos Palanca <carlospalanca@gmail.com>
+Date:   Sun Apr 12 14:45:49 2026 +0200
+
+    docs: update README — point to carlospalanca.es for slides and material
+
+[33mcommit e703620860989c4486865e3b602fcf2e936ccfbc[m
+Author: Carlos Palanca <carlospalanca@gmail.com>
+Date:   Sun Apr 12 14:43:16 2026 +0200
+
+    chore: remove slides, cheat-sheets and setup guide from repo
+    
+    Content now served via carlospalanca.es/cursos/bootcamp-devops-2026
+
+[33mcommit 1c4277367baa35e3b6d75f2d7a5e46885ae09b7e[m
+Author: Carlos Palanca <carlospalanca@gmail.com>
+Date:   Sun Apr 12 14:41:30 2026 +0200
+
+    feat: add HTML slides, labs, teoria, cheat-sheets and setup guide
+    
+    - 44 HTML slide files: presentations, labs, teoria, index
+    - 7 cheat-sheet HTML pages (Git, Docker, kubectl, GitHub Actions, Helm, Terraform, ArgoCD)
+    - Setup guide for student environment (SETUP-ALUMNO.md)
+    - Updated README with slides section and structure
+
+[33mcommit b8fc29cbae31ae1c07619b21a4b9b5df06110555[m
+Author: Carlos Palanca <carlospalanca@gmail.com>
+Date:   Wed Apr 1 18:22:41 2026 +0200
+
+    Initial commit: apps del Bootcamp DevOps 2026
+    
+    Incluye las 3 aplicaciones del bootcamp:
+    - CampusEats: app principal (Node + Express + MongoDB + Nginx)
+    - MyFitness: app sencilla para Docker basico (Node + SQLite)
+    - QuizBattle: multi-servicio para Terraform (Python + Node + Redis + PostgreSQL)
+    - Monitoring: stack Prometheus + Grafana
+    
+    Los alumnos forkean este repo y van construyendo sobre el:
+    Dia 1: Dockerfiles + Compose
+    Dia 2: GitHub Actions CI/CD
+    Dia 3: Kubernetes manifests
+    Dia 4: Terraform + Monitoring
